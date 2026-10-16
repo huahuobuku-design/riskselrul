@@ -1,0 +1,10 @@
+{
+  "fixture": "tests/fixtures/legacy_forward.npz",
+  "fixture_sha256": "d42631b913087eae2c1976135fc19ab810e341e93389038f90c262db07c0982c",
+  "reference": "outputs/wp04a/lean_deploy.py",
+  "reference_sha256": "3db50f1cf0e68ed6069589bc39cd0988fdf6db94279124c1ae858f1b4acd1ce2",
+  "windows": "6 deterministic SYNTHETIC numerical windows including missing, stuck, drift, and all-missing inputs; no NASA accuracy claim",
+  "states": 78,
+  "floating_outputs": 936,
+  "threshold_decisions": 468
+}

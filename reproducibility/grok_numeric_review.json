@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "scope": "Locally recomputed received tables and API values; not a second model fit",
+  "received_archive_sha256": "688678f74cf3fdff58fa9670d843fdaa64f802f9e5b589e541ff81515773221a",
+  "bot_environment": {
+    "os": "Debian GNU/Linux 13",
+    "python": "3.13.5",
+    "cpu": "Intel Xeon; eight reported vCPUs"
+  },
+  "audit": {
+    "checked": 5392,
+    "mismatches": 0,
+    "failures": [],
+    "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+  },
+  "comparisons": {
+    "pred_": {
+      "values": 8400,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "score_": {
+      "values": 33600,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "acc_": {
+      "values": 33600,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "sel80_": {
+      "values": 33600,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "bot_numeric_example_check_entries": 14,
+  "exit_codes": {
+    "00_sha": 0,
+    "00_unzip": 0,
+    "01_cs_version": 0,
+    "01_ex_01_train_and_evaluate": 2,
+    "01_ex_02_coverage_error_curve": 0,
+    "01_ex_03_archived_state": 0,
+    "01_m_version": 0,
+    "01_modpath": 0,
+    "01_pip_freeze": 0,
+    "01_pip_install": 0,
+    "01_pytest": 0,
+    "01_reproduce_help": 0,
+    "01_venv": 0,
+    "02_check_metrics": 0,
+    "03_compare_ref": 0,
+    "03_compare_ref2": 0,
+    "03_find_nasa": 0,
+    "03_freeze_after": 0,
+    "03_inspect": 0,
+    "03_pip_train": 0,
+    "03_pytest_with_train": 0,
+    "03_reproduce": 0
+  },
+  "known_nonzero": "Training example 01 invoked without required arguments, exit 2; not counted as success",
+  "independent_human_adoption": false,
+  "full_multi_seed_training": false
+}

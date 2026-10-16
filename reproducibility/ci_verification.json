@@ -1,0 +1,64 @@
+{
+  "run_id": 38953062453,
+  "commit": "d453742f7eafede566acc53b2e3f3001ac751abe",
+  "url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/38953062453",
+  "scope": "installation, unit/integration fixtures and CLI; no raw-data training in CI",
+  "jobs": [
+    {
+      "id": 117149004363,
+      "os": "Ubuntu",
+      "profile": "validated-0.1.0",
+      "status": "success",
+      "evidence": [
+        "2026-10-16T19:12:00.5754541Z Processing ./validated_alpha/riskselrul-0.1.0",
+        "2026-10-16T19:12:22.2455851Z 18 passed in 0.85s",
+        "2026-10-16T19:12:22.4114930Z 0.1.0",
+        "2026-10-16T19:12:22.5334735Z 0.1.0",
+        "2026-10-16T19:12:22.7389996Z numpy           2.5.4",
+        "2026-10-16T19:12:22.7402668Z riskselrul      0.1.0",
+        "2026-10-16T19:12:22.7403207Z scikit-learn    1.9.1"
+      ]
+    },
+    {
+      "id": 117149004741,
+      "os": "Windows",
+      "profile": "validated-0.1.0",
+      "status": "success",
+      "evidence": [
+        "2026-10-16T19:11:40.5168325Z Processing .\\validated_alpha\\riskselrul-0.1.0",
+        "2026-10-16T19:12:18.7801588Z 18 passed in 0.70s",
+        "2026-10-16T19:12:18.9289604Z 0.1.0",
+        "2026-10-16T19:12:19.0346358Z 0.1.0",
+        "2026-10-16T19:12:19.7633965Z numpy           2.5.4",
+        "2026-10-16T19:12:19.7645158Z riskselrul      0.1.0",
+        "2026-10-16T19:12:19.7646190Z scikit-learn    1.9.1"
+      ]
+    },
+    {
+      "id": 117149004922,
+      "os": "Windows",
+      "profile": "github-1.0.0",
+      "status": "success",
+      "evidence": [
+        "2026-10-16T19:13:29.3900753Z Ran 19 tests in 0.228s",
+        "2026-10-16T19:13:29.3901406Z OK (skipped=4)",
+        "2026-10-16T19:13:30.4687994Z numpy           2.5.4",
+        "2026-10-16T19:13:30.4707845Z riskselrul      1.0.0",
+        "2026-10-16T19:13:30.4709981Z scikit-learn    1.9.1"
+      ]
+    },
+    {
+      "id": 117149005005,
+      "os": "Ubuntu",
+      "profile": "github-1.0.0",
+      "status": "success",
+      "evidence": [
+        "2026-10-16T19:12:29.7543811Z Ran 19 tests in 0.122s",
+        "2026-10-16T19:12:29.7544529Z OK (skipped=4)",
+        "2026-10-16T19:12:30.0184181Z numpy           2.5.4",
+        "2026-10-16T19:12:30.0187224Z riskselrul      1.0.0",
+        "2026-10-16T19:12:30.0187612Z scikit-learn    1.9.1"
+      ]
+    }
+  ]
+}

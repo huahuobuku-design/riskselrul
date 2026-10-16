@@ -1,0 +1,50 @@
+{
+  "reference": "outputs/wp05a/local_reproduction/results/test_FD001_s42_st9001.csv",
+  "new_run": "validation/raw_fd001_s42_st9001_attempt2",
+  "rows": 2100,
+  "comparisons": {
+    "point_predictions": {
+      "columns": 4,
+      "values": 8400,
+      "exactly_equal": true,
+      "max_abs_delta": 0.0
+    },
+    "risk_scores": {
+      "columns": 16,
+      "values": 33600,
+      "exactly_equal": true,
+      "max_abs_delta": 0.0
+    },
+    "accept_flags": {
+      "columns": 16,
+      "values": 33600,
+      "exactly_equal": true,
+      "max_abs_delta": 0.0
+    },
+    "fixed_k_flags": {
+      "columns": 16,
+      "values": 33600,
+      "exactly_equal": true,
+      "max_abs_delta": 0.0
+    }
+  },
+  "oof_rows_engine_exclusion_checked": 5600,
+  "normalization_boundaries_recomputed": 6,
+  "max_normalization_delta": 0.0,
+  "bootstrap_replicates": 2000,
+  "audit": {
+    "checked": 5392,
+    "mismatches": 0,
+    "failures": [],
+    "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+  },
+  "state_parity": {
+    "states": 78,
+    "synthetic_windows": 6,
+    "max_prediction_delta": 0.0,
+    "max_risk_delta": 0.0,
+    "identical_decisions": true,
+    "decisions": 468
+  },
+  "limitations": "One dataset/seed/stream migrated; complete multi-seed analysis and remote CI not rerun."
+}

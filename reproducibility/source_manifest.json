@@ -1,0 +1,604 @@
+[
+  {
+    "source": "outputs/wp05a/reviewed_bundle/code/data.py",
+    "source_sha256": "eb26966f1d1afd6622b25ba356100330d5110b9323ce8dd740770802705f5c1a",
+    "destination": "src/riskselrul/_legacy/data.py",
+    "destination_sha256": "bf637c6cbc9831c43a6abdece6dde02d9633aa649541ff7c11e01f6c6b65a6a4",
+    "changes": [
+      "relative package imports"
+    ]
+  },
+  {
+    "source": "outputs/wp05a/reviewed_bundle/code/faults.py",
+    "source_sha256": "8e53792e07bd71980ebf6043bdf0359ee9a5347e7cde073488a5d3b596dba480",
+    "destination": "src/riskselrul/_legacy/faults.py",
+    "destination_sha256": "2f9bf219c5e1a2fbcf93073b06f451710deb7b783c292e426a1571bf4f34e1b9",
+    "changes": [
+      "relative package imports"
+    ]
+  },
+  {
+    "source": "outputs/wp05a/reviewed_bundle/code/rng_keys.py",
+    "source_sha256": "717ff6074d1adfaeed4989e715de646cf58c850a98466fed21b4dbf07df4a6f4",
+    "destination": "src/riskselrul/_legacy/rng_keys.py",
+    "destination_sha256": "717ff6074d1adfaeed4989e715de646cf58c850a98466fed21b4dbf07df4a6f4",
+    "changes": [
+      "relative package imports"
+    ]
+  },
+  {
+    "source": "outputs/wp05a/reviewed_bundle/code/bootstrap.py",
+    "source_sha256": "718205cbea1e1f1de0b53d716bbe078e4054865aa382748616a65c6742ed7757",
+    "destination": "src/riskselrul/_legacy/bootstrap.py",
+    "destination_sha256": "718205cbea1e1f1de0b53d716bbe078e4054865aa382748616a65c6742ed7757",
+    "changes": [
+      "relative package imports"
+    ]
+  },
+  {
+    "source": "outputs/wp05a/reviewed_bundle/code/train_entry.py",
+    "source_sha256": "f707cfcbbecfd56e277d5e3f4f80fc7b8f63edc59613b9ec86606c76425e30af",
+    "destination": "src/riskselrul/_legacy/train_entry.py",
+    "destination_sha256": "336015a0d182c7e27cd7dad1bf94e213491bf4a4a10b3ad57a175b1bd5d52077",
+    "changes": [
+      "relative package imports",
+      "packaged config path",
+      "remove historical conversational authorization gate",
+      "ordinary subset arguments instead of test-only flag",
+      "nonzero exit for incomplete bootstrap"
+    ]
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_all_linear_57.npz",
+    "source_sha256": "cbc9cbe42d2ef1459c93eac54254135a30f557166e6092747c770e4fc00c178c",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_all_linear_57.npz",
+    "destination_sha256": "cbc9cbe42d2ef1459c93eac54254135a30f557166e6092747c770e4fc00c178c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_all_linear_99.npz",
+    "source_sha256": "c7fcdcc412a985376950c9837632a24855ebe1ccdc2a3683c770e616c78f462e",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_all_linear_99.npz",
+    "destination_sha256": "c7fcdcc412a985376950c9837632a24855ebe1ccdc2a3683c770e616c78f462e",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_nobias_linear_57.npz",
+    "source_sha256": "1345ad5864934c9b1365432fd869dc0ab962dc65e09326823be14d93e71679eb",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_nobias_linear_57.npz",
+    "destination_sha256": "1345ad5864934c9b1365432fd869dc0ab962dc65e09326823be14d93e71679eb",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_nobias_linear_99.npz",
+    "source_sha256": "c2eb481a997a57c4513428c3408408daa398c2cee8e0449dfb1e259a24d82853",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_nobias_linear_99.npz",
+    "destination_sha256": "c2eb481a997a57c4513428c3408408daa398c2cee8e0449dfb1e259a24d82853",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_nodrift_linear_57.npz",
+    "source_sha256": "7a112be511309531fe803b7598c4a4ac5f93ec432a6d2c26f3b9ed824022da86",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_nodrift_linear_57.npz",
+    "destination_sha256": "7a112be511309531fe803b7598c4a4ac5f93ec432a6d2c26f3b9ed824022da86",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed42_nodrift_linear_99.npz",
+    "source_sha256": "ae67664e1cc762c015eabad634f8d32ec42c60ba82512a9a2e8770d08a8a3a08",
+    "destination": "src/riskselrul/assets/states/FD001_seed42_nodrift_linear_99.npz",
+    "destination_sha256": "ae67664e1cc762c015eabad634f8d32ec42c60ba82512a9a2e8770d08a8a3a08",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_all_linear_57.npz",
+    "source_sha256": "0a25ff11ceb00990760915ed8a26711d7f0bf284d23de5737c33b9f1b47e6842",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_all_linear_57.npz",
+    "destination_sha256": "0a25ff11ceb00990760915ed8a26711d7f0bf284d23de5737c33b9f1b47e6842",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_all_linear_99.npz",
+    "source_sha256": "becb7263c3e1aad9b8ea94be75e35ebea512f8d7ccc73eda200edea230842441",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_all_linear_99.npz",
+    "destination_sha256": "becb7263c3e1aad9b8ea94be75e35ebea512f8d7ccc73eda200edea230842441",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_nobias_linear_57.npz",
+    "source_sha256": "5110736c985d0f85cc8b802649ad6d784e1a41cc3f3e41300a72d2db543df512",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_nobias_linear_57.npz",
+    "destination_sha256": "5110736c985d0f85cc8b802649ad6d784e1a41cc3f3e41300a72d2db543df512",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_nobias_linear_99.npz",
+    "source_sha256": "8fa370d89d14ffc4c4f717f7ab924a63a39b6f654aef8cba6671c788079a2a5c",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_nobias_linear_99.npz",
+    "destination_sha256": "8fa370d89d14ffc4c4f717f7ab924a63a39b6f654aef8cba6671c788079a2a5c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_nodrift_linear_57.npz",
+    "source_sha256": "d8e49c3cbbe7ab7ee715c590108e61ba61dedfd8fd5355fe917dff3ace2e28c4",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_nodrift_linear_57.npz",
+    "destination_sha256": "d8e49c3cbbe7ab7ee715c590108e61ba61dedfd8fd5355fe917dff3ace2e28c4",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed43_nodrift_linear_99.npz",
+    "source_sha256": "f7fd7d09ae7f39a4e9c041d65fd8421d7179e41dba3e514b25facd37b41e0f46",
+    "destination": "src/riskselrul/assets/states/FD001_seed43_nodrift_linear_99.npz",
+    "destination_sha256": "f7fd7d09ae7f39a4e9c041d65fd8421d7179e41dba3e514b25facd37b41e0f46",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_all_linear_57.npz",
+    "source_sha256": "c977caff6280e2ec61e9f65b23faadefae2513ff83359df76d0c0541b0c041f3",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_all_linear_57.npz",
+    "destination_sha256": "c977caff6280e2ec61e9f65b23faadefae2513ff83359df76d0c0541b0c041f3",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_all_linear_99.npz",
+    "source_sha256": "f5ff0d0395fd76b5489266fab239ad8e276bdbb8d59ce0351d772535023104c8",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_all_linear_99.npz",
+    "destination_sha256": "f5ff0d0395fd76b5489266fab239ad8e276bdbb8d59ce0351d772535023104c8",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_nobias_linear_57.npz",
+    "source_sha256": "c0e2a948707c9f29ac7d12e2aa744f257092c68dbbfa2f7b22e5d544faf8782d",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_nobias_linear_57.npz",
+    "destination_sha256": "c0e2a948707c9f29ac7d12e2aa744f257092c68dbbfa2f7b22e5d544faf8782d",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_nobias_linear_99.npz",
+    "source_sha256": "5b91b64a1af54c971e66906d031ba379bd816785864b783b6724680c7871b8e3",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_nobias_linear_99.npz",
+    "destination_sha256": "5b91b64a1af54c971e66906d031ba379bd816785864b783b6724680c7871b8e3",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_nodrift_linear_57.npz",
+    "source_sha256": "906c9f8905edd348af474d2186421b146988f1707c4bc3d99f6c6724d43867c1",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_nodrift_linear_57.npz",
+    "destination_sha256": "906c9f8905edd348af474d2186421b146988f1707c4bc3d99f6c6724d43867c1",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD001_seed44_nodrift_linear_99.npz",
+    "source_sha256": "6725ec2bb561b84dfb203b3a26a04eda55059ae4f5ed48be337b60c232ce5998",
+    "destination": "src/riskselrul/assets/states/FD001_seed44_nodrift_linear_99.npz",
+    "destination_sha256": "6725ec2bb561b84dfb203b3a26a04eda55059ae4f5ed48be337b60c232ce5998",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_all_linear_57.npz",
+    "source_sha256": "7afcabc8bef800ca5589ced6c603b01107e08d8dacff3b7189d336029b3ab09f",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_all_linear_57.npz",
+    "destination_sha256": "7afcabc8bef800ca5589ced6c603b01107e08d8dacff3b7189d336029b3ab09f",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_all_linear_99.npz",
+    "source_sha256": "003d974a417732b8895a605b7526f3de4a7e10ebd1b18596dff1cf1feb428cea",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_all_linear_99.npz",
+    "destination_sha256": "003d974a417732b8895a605b7526f3de4a7e10ebd1b18596dff1cf1feb428cea",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_nobias_linear_57.npz",
+    "source_sha256": "5b2c5280251853050a1fae110b73b7c59407e1781d5f8e1f6699006c7df7fea6",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_nobias_linear_57.npz",
+    "destination_sha256": "5b2c5280251853050a1fae110b73b7c59407e1781d5f8e1f6699006c7df7fea6",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_nobias_linear_99.npz",
+    "source_sha256": "f336ee12e49aea4b9c101919fee145aa244f5d75eb326c9ebc5c3e30f105fac7",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_nobias_linear_99.npz",
+    "destination_sha256": "f336ee12e49aea4b9c101919fee145aa244f5d75eb326c9ebc5c3e30f105fac7",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_nodrift_linear_57.npz",
+    "source_sha256": "499f8dbdfd409132f88f0b0bbc55e6bc0cc38d651e88b6ed1e4e0e2fe1fe4d8d",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_nodrift_linear_57.npz",
+    "destination_sha256": "499f8dbdfd409132f88f0b0bbc55e6bc0cc38d651e88b6ed1e4e0e2fe1fe4d8d",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed42_nodrift_linear_99.npz",
+    "source_sha256": "eb8054389a480ce5725cc33569f0a4d69101d51ce987b8785f8e91d401870603",
+    "destination": "src/riskselrul/assets/states/FD003_seed42_nodrift_linear_99.npz",
+    "destination_sha256": "eb8054389a480ce5725cc33569f0a4d69101d51ce987b8785f8e91d401870603",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_all_linear_57.npz",
+    "source_sha256": "a56dc5487b9137b389118da89139641d8ce03ff055566caab076e91c925511f1",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_all_linear_57.npz",
+    "destination_sha256": "a56dc5487b9137b389118da89139641d8ce03ff055566caab076e91c925511f1",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_all_linear_99.npz",
+    "source_sha256": "a7baf69e784b8940b11d4db90f436699640a9e0c873f645f9cc17ff3bec1184a",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_all_linear_99.npz",
+    "destination_sha256": "a7baf69e784b8940b11d4db90f436699640a9e0c873f645f9cc17ff3bec1184a",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_nobias_linear_57.npz",
+    "source_sha256": "631d6fa2585fa0c5f7847105d4150a9fac7cd43adc8a1d5186b12f97ac2c362f",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_nobias_linear_57.npz",
+    "destination_sha256": "631d6fa2585fa0c5f7847105d4150a9fac7cd43adc8a1d5186b12f97ac2c362f",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_nobias_linear_99.npz",
+    "source_sha256": "a0f70fc79e835511553d9de048551ad32e2a14e149ff94e401f142b6edf7c14c",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_nobias_linear_99.npz",
+    "destination_sha256": "a0f70fc79e835511553d9de048551ad32e2a14e149ff94e401f142b6edf7c14c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_nodrift_linear_57.npz",
+    "source_sha256": "7ea65ff9bff2e27ae4d4bc07bafefd9382c183721bc60134104cf7a42f5ac482",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_nodrift_linear_57.npz",
+    "destination_sha256": "7ea65ff9bff2e27ae4d4bc07bafefd9382c183721bc60134104cf7a42f5ac482",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed43_nodrift_linear_99.npz",
+    "source_sha256": "cc6e6686184325603f0e83d534b499f2e2fd6125e42a6453480283419bf54fbd",
+    "destination": "src/riskselrul/assets/states/FD003_seed43_nodrift_linear_99.npz",
+    "destination_sha256": "cc6e6686184325603f0e83d534b499f2e2fd6125e42a6453480283419bf54fbd",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_all_linear_57.npz",
+    "source_sha256": "2698af60cf89502c21f6244a5cd6a88039dade9098cc47a945ffcadfd3361879",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_all_linear_57.npz",
+    "destination_sha256": "2698af60cf89502c21f6244a5cd6a88039dade9098cc47a945ffcadfd3361879",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_all_linear_99.npz",
+    "source_sha256": "7b1aac880eccedb9323abb25266d22c2f6e0b1035a084573c4e872f3906bc475",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_all_linear_99.npz",
+    "destination_sha256": "7b1aac880eccedb9323abb25266d22c2f6e0b1035a084573c4e872f3906bc475",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_nobias_linear_57.npz",
+    "source_sha256": "580586fb446969fbf3aaff63a396c8b996479d29feefdeffb52a6b7fd63ace25",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_nobias_linear_57.npz",
+    "destination_sha256": "580586fb446969fbf3aaff63a396c8b996479d29feefdeffb52a6b7fd63ace25",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_nobias_linear_99.npz",
+    "source_sha256": "6408878f29fec9ab6ea04865ded9e83699fbf2bf33d3daec125d02bde32c8129",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_nobias_linear_99.npz",
+    "destination_sha256": "6408878f29fec9ab6ea04865ded9e83699fbf2bf33d3daec125d02bde32c8129",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_nodrift_linear_57.npz",
+    "source_sha256": "856c4ea94e28de35ae2d309ce6863c4e08ce0bfb01fd814e8c0ba63bc4c042e0",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_nodrift_linear_57.npz",
+    "destination_sha256": "856c4ea94e28de35ae2d309ce6863c4e08ce0bfb01fd814e8c0ba63bc4c042e0",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed44_nodrift_linear_99.npz",
+    "source_sha256": "30c9743a92eceb8772f288ae6031a1a0590b4a9d6b8522cb6ff261763137a53e",
+    "destination": "src/riskselrul/assets/states/FD003_seed44_nodrift_linear_99.npz",
+    "destination_sha256": "30c9743a92eceb8772f288ae6031a1a0590b4a9d6b8522cb6ff261763137a53e",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_all_linear_57.npz",
+    "source_sha256": "b92f5bb1d6722f6cd58c031c1872eb03debcb30604cb78a4904a3c2d103cd02d",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_all_linear_57.npz",
+    "destination_sha256": "b92f5bb1d6722f6cd58c031c1872eb03debcb30604cb78a4904a3c2d103cd02d",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_all_linear_99.npz",
+    "source_sha256": "0d6f1d9606a1029c172c2afd3b9f8cc82801e50bdd6f534b85aa3801164b8ccd",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_all_linear_99.npz",
+    "destination_sha256": "0d6f1d9606a1029c172c2afd3b9f8cc82801e50bdd6f534b85aa3801164b8ccd",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_nobias_linear_57.npz",
+    "source_sha256": "a06a2dc4df6771523c396f24faaf082564bf116eae431f5e48a706d7cf139a95",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_nobias_linear_57.npz",
+    "destination_sha256": "a06a2dc4df6771523c396f24faaf082564bf116eae431f5e48a706d7cf139a95",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_nobias_linear_99.npz",
+    "source_sha256": "4e89ad7e53f9d3bab3d65f9baf963d06be66d6dcf7a2d242bbde764683a3e73f",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_nobias_linear_99.npz",
+    "destination_sha256": "4e89ad7e53f9d3bab3d65f9baf963d06be66d6dcf7a2d242bbde764683a3e73f",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_nodrift_linear_57.npz",
+    "source_sha256": "3594e6fe1cfd9a8bddfb94dc446454acde3b098de710b727569d34f60fac7ca4",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_nodrift_linear_57.npz",
+    "destination_sha256": "3594e6fe1cfd9a8bddfb94dc446454acde3b098de710b727569d34f60fac7ca4",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed45_nodrift_linear_99.npz",
+    "source_sha256": "523c37d53fb3b8d3b2a1d44d7238a852fd461f5394458087fb5980276aae3a5c",
+    "destination": "src/riskselrul/assets/states/FD003_seed45_nodrift_linear_99.npz",
+    "destination_sha256": "523c37d53fb3b8d3b2a1d44d7238a852fd461f5394458087fb5980276aae3a5c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_all_linear_57.npz",
+    "source_sha256": "9b31031ab8b8741f30bbe600ca096d5f0e138b1f9f54b80c0b32ea240ab3522e",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_all_linear_57.npz",
+    "destination_sha256": "9b31031ab8b8741f30bbe600ca096d5f0e138b1f9f54b80c0b32ea240ab3522e",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_all_linear_99.npz",
+    "source_sha256": "1a5fbf6b73c7283d7786722a64a49a3fd8ddd2ecf61845ed69bc6ac94c7f1c17",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_all_linear_99.npz",
+    "destination_sha256": "1a5fbf6b73c7283d7786722a64a49a3fd8ddd2ecf61845ed69bc6ac94c7f1c17",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_nobias_linear_57.npz",
+    "source_sha256": "7d992fb353495cd0e277f34a47fcd32ec877a96e6003245c56b76754964a4fa9",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_nobias_linear_57.npz",
+    "destination_sha256": "7d992fb353495cd0e277f34a47fcd32ec877a96e6003245c56b76754964a4fa9",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_nobias_linear_99.npz",
+    "source_sha256": "ab6f702cfc0c5c55a07a40babaa968ccac0a0ba53c82d768c5c71a043a2ad2e6",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_nobias_linear_99.npz",
+    "destination_sha256": "ab6f702cfc0c5c55a07a40babaa968ccac0a0ba53c82d768c5c71a043a2ad2e6",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_nodrift_linear_57.npz",
+    "source_sha256": "ece4582e0b64789db28ad87fedc9436c72e5e310d5a3ef0832829aa11e46dd4c",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_nodrift_linear_57.npz",
+    "destination_sha256": "ece4582e0b64789db28ad87fedc9436c72e5e310d5a3ef0832829aa11e46dd4c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed46_nodrift_linear_99.npz",
+    "source_sha256": "45eaf70e0683a5c3e22fedc3296c9ca9b45ccebefce6d6aff91f843a370c26b9",
+    "destination": "src/riskselrul/assets/states/FD003_seed46_nodrift_linear_99.npz",
+    "destination_sha256": "45eaf70e0683a5c3e22fedc3296c9ca9b45ccebefce6d6aff91f843a370c26b9",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_all_linear_57.npz",
+    "source_sha256": "8ca7687f245966a1d5cce7e7f958949c98e092868dfd4ad64fe4bce5136e560c",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_all_linear_57.npz",
+    "destination_sha256": "8ca7687f245966a1d5cce7e7f958949c98e092868dfd4ad64fe4bce5136e560c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_all_linear_99.npz",
+    "source_sha256": "f4d339f31f432b2cd562d8335e79f919f3bbd03f0a8a691bd982655472de8d90",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_all_linear_99.npz",
+    "destination_sha256": "f4d339f31f432b2cd562d8335e79f919f3bbd03f0a8a691bd982655472de8d90",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_nobias_linear_57.npz",
+    "source_sha256": "a254bc5c86f6ce7de911e9d91053e4df3b6e2d46348de0dbc1427f519ee0c68d",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_nobias_linear_57.npz",
+    "destination_sha256": "a254bc5c86f6ce7de911e9d91053e4df3b6e2d46348de0dbc1427f519ee0c68d",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_nobias_linear_99.npz",
+    "source_sha256": "97eb4cfebdb016e13977494e21918dfe5b118bcb558daf73d4a30d88276796e7",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_nobias_linear_99.npz",
+    "destination_sha256": "97eb4cfebdb016e13977494e21918dfe5b118bcb558daf73d4a30d88276796e7",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_nodrift_linear_57.npz",
+    "source_sha256": "ce5064a25a55b3d4c0d396bce2c37180918c5e6f0e37b4ead72569c8496bcc3a",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_nodrift_linear_57.npz",
+    "destination_sha256": "ce5064a25a55b3d4c0d396bce2c37180918c5e6f0e37b4ead72569c8496bcc3a",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed47_nodrift_linear_99.npz",
+    "source_sha256": "5caa31ca2fdf1e4d87ecc31cdac6ca05bed71d3229210db9824daa62b6435759",
+    "destination": "src/riskselrul/assets/states/FD003_seed47_nodrift_linear_99.npz",
+    "destination_sha256": "5caa31ca2fdf1e4d87ecc31cdac6ca05bed71d3229210db9824daa62b6435759",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_all_linear_57.npz",
+    "source_sha256": "a25d69f77ca4780933dc606e16c7c0ef336c77eed3ae0ffe9b2a037e294bb52b",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_all_linear_57.npz",
+    "destination_sha256": "a25d69f77ca4780933dc606e16c7c0ef336c77eed3ae0ffe9b2a037e294bb52b",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_all_linear_99.npz",
+    "source_sha256": "6d198eec2b079468f679f0fe75406c08d48f396eec8414d117c6e56919109c23",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_all_linear_99.npz",
+    "destination_sha256": "6d198eec2b079468f679f0fe75406c08d48f396eec8414d117c6e56919109c23",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_nobias_linear_57.npz",
+    "source_sha256": "f57410d3cb7517cdd9721865f4a301ef131a8c77b3cd179a4c7fec892dfae6be",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_nobias_linear_57.npz",
+    "destination_sha256": "f57410d3cb7517cdd9721865f4a301ef131a8c77b3cd179a4c7fec892dfae6be",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_nobias_linear_99.npz",
+    "source_sha256": "f4e77ab0f5c6929156964ba692a94200cdef13ce1a96e878e1764f1ddad97577",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_nobias_linear_99.npz",
+    "destination_sha256": "f4e77ab0f5c6929156964ba692a94200cdef13ce1a96e878e1764f1ddad97577",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_nodrift_linear_57.npz",
+    "source_sha256": "0a801876e5167b5598064a3ef00ff74ab3b847c89cc7bdd1399446472bb30a10",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_nodrift_linear_57.npz",
+    "destination_sha256": "0a801876e5167b5598064a3ef00ff74ab3b847c89cc7bdd1399446472bb30a10",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed48_nodrift_linear_99.npz",
+    "source_sha256": "4997903df868b8ac995418397003d370e2d9b9261901b59490725ba6c58a0036",
+    "destination": "src/riskselrul/assets/states/FD003_seed48_nodrift_linear_99.npz",
+    "destination_sha256": "4997903df868b8ac995418397003d370e2d9b9261901b59490725ba6c58a0036",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_all_linear_57.npz",
+    "source_sha256": "180f9895545459466189fab510fb84dec56f17b7ed6832ad4c034c8845b12002",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_all_linear_57.npz",
+    "destination_sha256": "180f9895545459466189fab510fb84dec56f17b7ed6832ad4c034c8845b12002",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_all_linear_99.npz",
+    "source_sha256": "88059705b39c3d5c8a4c955f11fbb62f9d686906bfc6516154ec752ed59b0132",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_all_linear_99.npz",
+    "destination_sha256": "88059705b39c3d5c8a4c955f11fbb62f9d686906bfc6516154ec752ed59b0132",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_nobias_linear_57.npz",
+    "source_sha256": "269f7dbf4e5b7fe283cdc4cee91e4b1b66cc0451c3a87c0a5f4c8dd897de6250",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_nobias_linear_57.npz",
+    "destination_sha256": "269f7dbf4e5b7fe283cdc4cee91e4b1b66cc0451c3a87c0a5f4c8dd897de6250",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_nobias_linear_99.npz",
+    "source_sha256": "d4d43a681dcb3d117291eb88fcb55a54a2c4a94ca159c47d7dfeb7f6aab70dc8",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_nobias_linear_99.npz",
+    "destination_sha256": "d4d43a681dcb3d117291eb88fcb55a54a2c4a94ca159c47d7dfeb7f6aab70dc8",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_nodrift_linear_57.npz",
+    "source_sha256": "7063dd5bd21d94a27a03c776f516b58ea78f9396f23cd0daf9607b1c4c2a7773",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_nodrift_linear_57.npz",
+    "destination_sha256": "7063dd5bd21d94a27a03c776f516b58ea78f9396f23cd0daf9607b1c4c2a7773",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed49_nodrift_linear_99.npz",
+    "source_sha256": "2c4511ee71fefcc8ea81f0a0a82061f07b2e58b72e5939dd9a2c1f55dff5446c",
+    "destination": "src/riskselrul/assets/states/FD003_seed49_nodrift_linear_99.npz",
+    "destination_sha256": "2c4511ee71fefcc8ea81f0a0a82061f07b2e58b72e5939dd9a2c1f55dff5446c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_all_linear_57.npz",
+    "source_sha256": "31274e3ab81f3b579bc06d9eda3fa885f1558ec96631aebf32864cafed47549a",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_all_linear_57.npz",
+    "destination_sha256": "31274e3ab81f3b579bc06d9eda3fa885f1558ec96631aebf32864cafed47549a",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_all_linear_99.npz",
+    "source_sha256": "d6e4f3f6ad569a5b2890964f0f2347266d13399826060581a815d4d7f7a9b120",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_all_linear_99.npz",
+    "destination_sha256": "d6e4f3f6ad569a5b2890964f0f2347266d13399826060581a815d4d7f7a9b120",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_nobias_linear_57.npz",
+    "source_sha256": "e26e75f0c9578a50d81fd4cfc5add7bbfe0977e1da87c7c36036160dd1f38767",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_nobias_linear_57.npz",
+    "destination_sha256": "e26e75f0c9578a50d81fd4cfc5add7bbfe0977e1da87c7c36036160dd1f38767",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_nobias_linear_99.npz",
+    "source_sha256": "0c0941d56a71620f52e0ff41a2d9a03d4efc51122d13886f6fd04e2daa47763f",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_nobias_linear_99.npz",
+    "destination_sha256": "0c0941d56a71620f52e0ff41a2d9a03d4efc51122d13886f6fd04e2daa47763f",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_nodrift_linear_57.npz",
+    "source_sha256": "95956ff5a988bcb1f7a7a15acece2901048d0cdef8dcab97f820b7fe4cca9abc",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_nodrift_linear_57.npz",
+    "destination_sha256": "95956ff5a988bcb1f7a7a15acece2901048d0cdef8dcab97f820b7fe4cca9abc",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed50_nodrift_linear_99.npz",
+    "source_sha256": "779450420d2de9ed1482f0487723396cab2416c567ed863c811b7129f7fc2639",
+    "destination": "src/riskselrul/assets/states/FD003_seed50_nodrift_linear_99.npz",
+    "destination_sha256": "779450420d2de9ed1482f0487723396cab2416c567ed863c811b7129f7fc2639",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_all_linear_57.npz",
+    "source_sha256": "444a776b4ec8cffc2ee4472005cd575de8e373a242a3bf454b9d0ededa08ea3c",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_all_linear_57.npz",
+    "destination_sha256": "444a776b4ec8cffc2ee4472005cd575de8e373a242a3bf454b9d0ededa08ea3c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_all_linear_99.npz",
+    "source_sha256": "89721b98b7aa0af4ea77f260c62055f918a67d3daf5223e60a9bb0fedc79d81b",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_all_linear_99.npz",
+    "destination_sha256": "89721b98b7aa0af4ea77f260c62055f918a67d3daf5223e60a9bb0fedc79d81b",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_nobias_linear_57.npz",
+    "source_sha256": "36776b200a908ccef09a305bf284222302223c7e52d3286a4d1fc2fa5d8e6e8c",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_nobias_linear_57.npz",
+    "destination_sha256": "36776b200a908ccef09a305bf284222302223c7e52d3286a4d1fc2fa5d8e6e8c",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_nobias_linear_99.npz",
+    "source_sha256": "013fc3d1527e8d44a737d2ed8043641531b376ed183905c44a4d48612302afd1",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_nobias_linear_99.npz",
+    "destination_sha256": "013fc3d1527e8d44a737d2ed8043641531b376ed183905c44a4d48612302afd1",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_nodrift_linear_57.npz",
+    "source_sha256": "1dc36789e33707a24065cf8c952480593a74ca8c8bf5c923d68a05b8ddb353fa",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_nodrift_linear_57.npz",
+    "destination_sha256": "1dc36789e33707a24065cf8c952480593a74ca8c8bf5c923d68a05b8ddb353fa",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp04a/deploy/FD003_seed51_nodrift_linear_99.npz",
+    "source_sha256": "bf1e8193835430889d56f2c5a6c301a85c4f1d72d1a6a4e53d9a4c4e9e495bf7",
+    "destination": "src/riskselrul/assets/states/FD003_seed51_nodrift_linear_99.npz",
+    "destination_sha256": "bf1e8193835430889d56f2c5a6c301a85c4f1d72d1a6a4e53d9a4c4e9e495bf7",
+    "changes": []
+  },
+  {
+    "source": "outputs/wp05a/reviewed_bundle/config.json",
+    "source_sha256": "7248ebe0b27d2b202da195636f44ab4dcc78036f89c8778feda6d1ab1a07c6de",
+    "destination": "src/riskselrul/_legacy/config.json",
+    "destination_sha256": "7248ebe0b27d2b202da195636f44ab4dcc78036f89c8778feda6d1ab1a07c6de",
+    "changes": []
+  }
+]
