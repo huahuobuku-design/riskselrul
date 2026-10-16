@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "old_reference_metric_checks": [
+    {
+      "dataset": "FD001",
+      "column": "threshold",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "accepted_count",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "coverage",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "rmse",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "mae",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "nasa_mean",
+      "n": 798,
+      "max_abs": 1.4210854715202004e-14
+    },
+    {
+      "dataset": "FD001",
+      "column": "frac_over20",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "full_rmse",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "full_mae",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "full_nasa_mean",
+      "n": 798,
+      "max_abs": 3.552713678800501e-15
+    },
+    {
+      "dataset": "FD001",
+      "column": "full_frac_over20",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "random_rmse_mean",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "random_rmse_lo95",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD001",
+      "column": "random_rmse_hi95",
+      "n": 798,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "threshold",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "accepted_count",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "coverage",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "rmse",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "mae",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "nasa_mean",
+      "n": 2660,
+      "max_abs": 1.8189894035458565e-12
+    },
+    {
+      "dataset": "FD003",
+      "column": "frac_over20",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "full_rmse",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "full_mae",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "full_nasa_mean",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "full_frac_over20",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "random_rmse_mean",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "random_rmse_lo95",
+      "n": 2660,
+      "max_abs": 0.0
+    },
+    {
+      "dataset": "FD003",
+      "column": "random_rmse_hi95",
+      "n": 2660,
+      "max_abs": 0.0
+    }
+  ],
+  "fixed80": [
+    {
+      "dataset": "FD001",
+      "method": "linear_99",
+      "seeds": 3,
+      "rmse_mean": 24.460202824583977,
+      "difference_vs101_mean": 0.07356996577221153,
+      "difference_vs101_median": 0.0716059047634765,
+      "difference_vs101_min": 0.02268808054576965,
+      "difference_vs101_max": 0.12641591200738844,
+      "higher_error_seeds": 3
+    },
+    {
+      "dataset": "FD001",
+      "method": "linear_57",
+      "seeds": 3,
+      "rmse_mean": 24.21885744432547,
+      "difference_vs101_mean": -0.16777541448629427,
+      "difference_vs101_median": -0.07110309414253635,
+      "difference_vs101_min": -0.397661163412959,
+      "difference_vs101_max": -0.03456198590338744,
+      "higher_error_seeds": 0
+    },
+    {
+      "dataset": "FD003",
+      "method": "linear_99",
+      "seeds": 10,
+      "rmse_mean": 43.446592255435704,
+      "difference_vs101_mean": 0.16661766393053767,
+      "difference_vs101_median": 0.12638237607500002,
+      "difference_vs101_min": -0.05294078977686212,
+      "difference_vs101_max": 0.4539288034851765,
+      "higher_error_seeds": 8
+    },
+    {
+      "dataset": "FD003",
+      "method": "linear_57",
+      "seeds": 10,
+      "rmse_mean": 43.59747303825596,
+      "difference_vs101_mean": 0.31749844675081035,
+      "difference_vs101_median": 0.23810077573994093,
+      "difference_vs101_min": -0.06483257568048373,
+      "difference_vs101_max": 0.8806721692501469,
+      "higher_error_seeds": 9
+    }
+  ],
+  "zero_accept_rows": 337,
+  "new_zero_accept_rows": 0,
+  "limits": "Fixed-k is test-ranked diagnostic, not a deployable calibration policy. Seeds share the same dataset and are not independent experimental replications. NA cases preserved."
+}

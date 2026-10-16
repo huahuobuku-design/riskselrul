@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+runs/
+*.log
+
+# C-MAPSS raw data is not redistributed; see scripts/fetch_cmapss.md
+data/raw/*.txt

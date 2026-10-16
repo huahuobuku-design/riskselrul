@@ -1,0 +1,777 @@
+{
+  "status": "DIFFERENCES",
+  "files": 88,
+  "exact_byte_files": 12,
+  "mask_differences": 0,
+  "failures": [
+    {
+      "file": "anchor.csv",
+      "column": "spearman",
+      "n": 4,
+      "max_abs": 0.0024122412241224245
+    },
+    {
+      "file": "test_FD003_s43_st9001.csv",
+      "column": "score_hgb_aug_H_log",
+      "n": 1,
+      "max_abs": 0.05119161016090645
+    },
+    {
+      "file": "test_FD003_s43_st9002.csv",
+      "column": "score_hgb_aug_H_log",
+      "n": 1,
+      "max_abs": 0.05119161016090645
+    },
+    {
+      "file": "test_FD003_s43_st9003.csv",
+      "column": "score_hgb_aug_H_log",
+      "n": 2,
+      "max_abs": 0.05119161016090645
+    }
+  ],
+  "details": [
+    {
+      "file": "anchor.csv",
+      "rows": 5760,
+      "cols": 10,
+      "exact_bytes": false,
+      "numeric_close": false,
+      "max_abs": 0.0024122412241224245,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_final.csv",
+      "rows": 12377,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_fold0.csv",
+      "rows": 10163,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_fold1.csv",
+      "rows": 10033,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_fold2.csv",
+      "rows": 9880,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_fold3.csv",
+      "rows": 9505,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s42_fold4.csv",
+      "rows": 9927,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_final.csv",
+      "rows": 12376,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_fold0.csv",
+      "rows": 9664,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_fold1.csv",
+      "rows": 9885,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_fold2.csv",
+      "rows": 10078,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_fold3.csv",
+      "rows": 9976,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s43_fold4.csv",
+      "rows": 9901,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_final.csv",
+      "rows": 12346,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_fold0.csv",
+      "rows": 9777,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_fold1.csv",
+      "rows": 9948,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_fold2.csv",
+      "rows": 9912,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_fold3.csv",
+      "rows": 10134,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD001_s44_fold4.csv",
+      "rows": 9613,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_final.csv",
+      "rows": 15376,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_fold0.csv",
+      "rows": 12561,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_fold1.csv",
+      "rows": 12508,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_fold2.csv",
+      "rows": 12257,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_fold3.csv",
+      "rows": 12143,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s42_fold4.csv",
+      "rows": 12035,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_final.csv",
+      "rows": 15308,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_fold0.csv",
+      "rows": 11715,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_fold1.csv",
+      "rows": 11963,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_fold2.csv",
+      "rows": 12666,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_fold3.csv",
+      "rows": 12329,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s43_fold4.csv",
+      "rows": 12559,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_final.csv",
+      "rows": 14836,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_fold0.csv",
+      "rows": 12031,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_fold1.csv",
+      "rows": 11564,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_fold2.csv",
+      "rows": 11975,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_fold3.csv",
+      "rows": 11870,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "augfaults_FD003_s44_fold4.csv",
+      "rows": 11904,
+      "cols": 6,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "bootstrap_intervals.csv",
+      "rows": 2400,
+      "cols": 9,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD001_s42.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD001_s43.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD001_s44.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD003_s42.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 2.220446049250313e-16,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD003_s43.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "calib_FD003_s44.csv",
+      "rows": 1200,
+      "cols": 106,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "fit_boundaries_FD001_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "fit_boundaries_FD001_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "fit_boundaries_FD001_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "fit_boundaries_FD003_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "fit_boundaries_FD003_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "fit_boundaries_FD003_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "metrics_avg_combos.csv",
+      "rows": 672,
+      "cols": 135,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "metrics_long.csv",
+      "rows": 6048,
+      "cols": 137,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 1.1368683772161603e-13,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD001_s42.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD001_s43.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD001_s44.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD003_s42.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD003_s43.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "oof_FD003_s44.csv",
+      "rows": 5600,
+      "cols": 75,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "split_FD001_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "split_FD001_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "split_FD001_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "split_FD003_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "split_FD003_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "split_FD003_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": true
+    },
+    {
+      "file": "test_FD001_s42_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s42_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s42_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s43_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s43_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s43_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s44_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s44_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD001_s44_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s42_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 2.220446049250313e-16,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s42_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 2.220446049250313e-16,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s42_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 2.220446049250313e-16,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s43_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": false,
+      "max_abs": 0.05119161016090645,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s43_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": false,
+      "max_abs": 0.05119161016090645,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s43_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": false,
+      "max_abs": 0.05119161016090645,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s44_st9001.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s44_st9002.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "test_FD003_s44_st9003.csv",
+      "rows": 2100,
+      "cols": 121,
+      "exact_bytes": false,
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "mask_differences": 0
+    },
+    {
+      "file": "thresholds_FD001_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    },
+    {
+      "file": "thresholds_FD001_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    },
+    {
+      "file": "thresholds_FD001_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    },
+    {
+      "file": "thresholds_FD003_s42.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    },
+    {
+      "file": "thresholds_FD003_s43.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    },
+    {
+      "file": "thresholds_FD003_s44.json",
+      "numeric_close": true,
+      "max_abs": 0.0,
+      "exact_bytes": false
+    }
+  ],
+  "comparison": "All result CSV/JSON except environment/timing run_info/run_end; no model or threshold retuning",
+  "tolerance": {
+    "atol": 1e-07,
+    "rtol": 1e-08
+  }
+}

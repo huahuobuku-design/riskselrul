@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "riskselrul: risk-aware selective RUL prediction on NASA C-MAPSS"
+abstract: >-
+  A reproducible toolkit for selective remaining-useful-life prediction on the
+  NASA C-MAPSS turbofan degradation data. It trains primary RUL predictors and a
+  label-free error-risk head, converts the risk score into an accept/reject
+  decision through a calibration-fitted threshold, and ships an evaluation
+  protocol that exposes the coverage/error trade-off, fixed-k diagnostics,
+  label-aware oracle lower bounds and an independent numeric audit.
+version: "1.0.0"
+date-released: "2026-10-16"
+license: Apache-2.0
+repository-code: "https://github.com/huahuobuku-design/riskselrul"
+keywords:
+  - remaining useful life
+  - selective prediction
+  - C-MAPSS
+  - prognostics and health management
+  - uncertainty quantification
+authors:
+  - name: "riskselrul contributors"

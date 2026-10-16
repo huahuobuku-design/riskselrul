@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-16T09:48:55.573738+00:00",
+  "protocol_sha256": "ae8077d2a76f1150819766b891e61d7604f47b9406fdc96b2ec93b0f6f0b0e78",
+  "before_wp05a_new_training_or_metrics": true,
+  "old_test_data_previously_used": true,
+  "study_status": "Exploratory, not confirmatory preregistration",
+  "local_preflight": "Installed model parameter validation only; no fitting or new outcome inspection"
+}

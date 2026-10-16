@@ -1,0 +1,4 @@
+protocol_wp04a.md b5034b371bc755b44b193354344619982c1935a4c12b0ee4e064c8f8d20e1c22
+config_wp04a.json 9fc0ea2091eb765c22958e63020b22c2be4d6ac77aff61261462fdab5d5069e6
+codex_reported protocol 830303ea... config 50037811... (D0)
+raw data referenced by original SHA (not included): see WP03B config_wp03b.json dataset.sha256 and WP03A runC/config.json
