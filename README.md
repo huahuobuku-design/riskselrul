@@ -1,5 +1,21 @@
 # riskselrul
 
+## Current SoftwareX package
+
+The latest SoftwareX development package is **0.1.1.dev0** on
+[softwarex-dev](https://github.com/huahuobuku-design/riskselrul/tree/softwarex-dev).
+It includes the updated software, generic-regression example, manuscript draft,
+and expanded experimental records.
+
+- [Current code and installation guide](https://github.com/huahuobuku-design/riskselrul/tree/softwarex-dev)
+- [Manuscript draft](https://github.com/huahuobuku-design/riskselrul/blob/softwarex-dev/paper/manuscript_v0.5.md)
+- [Supplementary materials and checks](https://github.com/huahuobuku-design/riskselrul/blob/softwarex-dev/paper/README.md)
+- [Candidate CI](https://github.com/huahuobuku-design/riskselrul/actions?query=branch%3Asoftwarex-dev)
+
+This main branch preserves the earlier **1.0.0 implementation**. The commands
+below refer to that implementation. Use the softwarex-dev installation guide
+for the current SoftwareX candidate. The validated-v0.1.0 tag remains unchanged.
+
 Risk-aware **selective remaining-useful-life (RUL) prediction** on the NASA
 C-MAPSS turbofan degradation data set.
 
