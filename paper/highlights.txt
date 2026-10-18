@@ -1,0 +1,5 @@
+Reusable NumPy interfaces evaluate user-supplied regression predictions.
+Threshold and fixed-count paths expose acceptance and error trade-offs.
+Engine-grouped workflows preserve matched sensor-fault comparisons.
+Saved-table audits and Ubuntu/Windows CI support reproducible use.
+Numeric states and general-regression examples simplify software reuse.

@@ -1,0 +1,18 @@
+{
+  "source_commit": "75fec6ef8e136669a8b1284b10cebd28d3055887",
+  "source_url": "https://github.com/huahuobuku-design/riskselrul/tree/75fec6ef8e136669a8b1284b10cebd28d3055887",
+  "api_url": "https://github.com/huahuobuku-design/riskselrul/blob/75fec6ef8e136669a8b1284b10cebd28d3055887/docs/API.md",
+  "tested_code_commit": "8a32e1946bdeb1cbf504b27875860d6a3445a8b5",
+  "ci_run_url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/39108599795",
+  "changes_since_tested_commit": [
+    "reproducibility/candidate_ci_verification.json",
+    "reproducibility/candidate_validation_summary.json"
+  ],
+  "runtime_changes_since_tested_commit": false,
+  "numeric_tables_unchanged": true,
+  "abstract_unchanged": true,
+  "experiment_data_changed": false,
+  "formal_release_created": false,
+  "doi_created": false,
+  "journal_submitted": false
+}

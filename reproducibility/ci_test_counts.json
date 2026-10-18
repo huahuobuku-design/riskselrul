@@ -1,0 +1,17 @@
+{
+  "run_id": 39108599795,
+  "tested_commit": "8a32e1946bdeb1cbf504b27875860d6a3445a8b5",
+  "job_logs_read_directly": true,
+  "results": [
+    {
+      "os": "Ubuntu",
+      "job_id": 117619691718,
+      "test_result": "21 passed in 0.92s"
+    },
+    {
+      "os": "Windows",
+      "job_id": 117619691918,
+      "test_result": "21 passed in 1.21s"
+    }
+  ]
+}

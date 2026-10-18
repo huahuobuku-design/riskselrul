@@ -1,11 +1,10 @@
 # SoftwareX manuscript and supplementary data
 
-The manuscript v0.5 is the reviewed working draft, not a submitted or accepted paper.
-It was prepared before this GitHub update and retains its archival-link placeholders.
+The manuscript v0.6 is the current working draft. It cites the fixed public source commit and verified candidate CI results. It has not been submitted.
 The current development source is on `softwarex-dev`; the frozen experiment baseline
 is tagged `validated-v0.1.0`. No new release or DOI archive is created by this update.
 
-- [Manuscript](manuscript_v0.5.md) and [editable Word file](RiskSelRUL_SoftwareX_v0.5.docx).
+- [Manuscript](manuscript_v0.6.md) and [editable Word file](RiskSelRUL_SoftwareX_v0.6.docx).
 - [Supplement S1](supplementary/Supplementary_S1_v0.3.zip): earlier selected-run verification.
 - [Supplement S2](supplementary/Supplementary_S2_v0.5.zip): full expansion outputs, logs and portable checks.
 - [File hashes](supplementary/SHA256.json).
