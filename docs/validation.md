@@ -16,13 +16,13 @@ The portable frozen-state tests use rtol=1e-11 and atol=1e-9 for floating output
 
 The core installation excludes training libraries. Core examples and tests must run under that dependency boundary. The trained model/profile need not be bitwise identical across all platforms; deviations in predictions, scores, and accepted sets are reported separately.
 
-## Executed raw-data migration check (2026-10-17)
+## Historical 0.1.0 raw-data migration check (2026-10-17)
 
 On Windows/Python 3.12.14, the migrated FD001/seed42/stream9001 command was run from the archived original NASA files with 2,000 bootstrap replicates. The training child reported 80 seconds and completed. Independent numeric audit: 5,392 checks, zero mismatches. This run covers 2,100 terminal engine/scenario rows and all four point predictors.
 
 Against the prior independent WP05A local reproduction, 8,400 point predictions, 33,600 risk scores, 33,600 acceptance flags, and 33,600 fixed-k flags were exactly equal. All 5,600 OOF rows excluded their own engine from the recorded fitting set. Clean sensor means/standard deviations were independently recalculated for the five folds and final fit; their maximum difference was zero.
 
-An initial package run completed model training but failed in the new auditor because an archived underscore column name was read as a dotted name. The auditor was corrected, a regression test was added, and a second fresh raw-data run passed. The first run/logs remain in the local validation archive. The full two-dataset/three-seed/three-stream analysis was not re-executed for this alpha package.
+An initial package run completed model training but failed in the new auditor because an archived underscore column name was read as a dotted name. The auditor was corrected, a regression test was added, and a second fresh raw-data run passed. The first run/logs remain in the local validation archive. At that initial migration stage the full two-dataset/three-seed/three-stream analysis had not been re-executed. The later expansion is described below.
 
 These are migration/integration results, not new evidence of algorithm superiority. The compact real example table is in `reproducibility/example_metrics_FD001_s42_st9001.csv`; it is not a synthetic benchmark and is not the complete multi-seed analysis.
 
@@ -40,5 +40,4 @@ C-MAPSS predictors. See `reproducibility/deep_review.json` and the Chinese revie
 
 The 0.1.1.dev0 candidate adds audit schema/empty-table guards and an executable
 general-regression example. It passed 21 local installed-wheel tests and both
-quickstart examples. CI for this branch builds and installs a wheel, then runs
-the tests and examples on Ubuntu and Windows. It does not rerun raw C-MAPSS training.
+quickstart examples. The earlier candidate CI built and installed a wheel and ran tests and examples on Ubuntu and Windows/Python 3.12, without raw training. The new finalization workflow adds Python 3.10 and separate fresh-download raw-training jobs; its results are recorded separately after actual execution.

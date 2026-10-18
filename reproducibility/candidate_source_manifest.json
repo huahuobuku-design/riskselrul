@@ -424,6 +424,14 @@
     {
       "path": "examples/quickstart_arrays.py",
       "sha256": "67642225dd181bb412b0ccb07c4e0d4291048272b2aad1321324b5bbeac05d40"
+    },
+    {
+      "path": "examples/05_user_tasks.py",
+      "sha256": "7b41c3cb01157c9b68e9f9100f462b05af7c98d3c6985cc81a97793df19ab08a"
+    },
+    {
+      "path": "scripts/cold_start.py",
+      "sha256": "43228d057ee3f785971fa77facec8fb8522289efb5031e91602422941f621921"
     }
   ]
 }

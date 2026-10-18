@@ -1,13 +1,26 @@
 # Release and submission status
 
-This is the separately tagged validated 0.1.0 profile, not the repository's main-branch 1.0.0 implementation. Runtime source, numeric states and frozen configuration match the reviewed 0.1.0 inventory; documentation, a quickstart example and CI files were added for publication.
+Updated 2026-10-18. The canonical SoftwareX candidate is **0.1.1.dev0 on softwarex-dev**. Clone this branch explicitly. The main branch retains a different historical 1.0.0 implementation; validated-v0.1.0 is the frozen computational baseline. Old branches and tags remain intact.
 
-- Apache-2.0 license text is included under LICENSE, LICENSE.txt and Licence.txt. Top-level dependencies are separately installed, not relicensed or vendored. Their installed license metadata is recorded in reproducibility/license_inventory.json; this is not an audit of all binary/transitive redistribution obligations.
-- Ubuntu/Windows Python 3.12 installation and 18 tests passed for the exact frozen 0.1.0 source archive. See reproducibility/ci_verification.json. CI does not rerun raw-data training.
-- An AI-operated Debian/Python 3.13.5 raw-data run returned FD001/seed42/stream9001 results; independently recomputed tables passed 5,392 checks. This is not independent human adoption. See reproducibility/grok_numeric_review.json.
-- Full two-dataset/three-seed/three-stream retraining has not been repeated for this release.
-- Human author names, affiliation, support contact, contributor/funding/conflict declarations and final attribution review: —.
-- Persistent software/data archive DOI: —. A GitHub release alone is not an immutable archival deposit.
-- Article author approval and journal submission: —.
+## Completed records
 
-Official guide/template and any current submission requirements must be checked before submission. The accompanying draft follows SoftwareX OSP template version 6 (March 2026); no acceptance or submission is claimed.
+- Author: Jinxian Wu. Affiliation: College of Publishing, University of Shanghai for Science and Technology, Shanghai 200093, China. Contact: 2435050925@st.usst.edu.cn. The author reports no competing interests.
+- Apache-2.0 license is included. NASA data and external packages remain separate works; raw NASA files are not redistributed.
+- Candidate installed-wheel CI passed 21 tests on Ubuntu and Windows/Python 3.12; see reproducibility/candidate_ci_verification.json and ci_test_counts.json.
+- The frozen expansion includes six dataset/seed fits, eighteen fault-stream cases and independent local arithmetic/preprocessing/interval checks in S2. Received execution logs and local model refitting have distinct evidence scopes.
+- Manuscript v0.6, API reference, minimal example and supplements are public.
+
+## This finalization pass
+
+- Add self-designed functional user tasks, distinct from external human adoption.
+- Extend fresh-runner testing to Python 3.10 and 3.12 on Ubuntu and Windows.
+- Add fresh-download, strict-hash, full training and audit jobs for FD001 and FD003, seed 42 / stream 9001 / 2,000 bootstrap draws. Record execution evidence separately after completion; configuration alone is not PASS.
+- Repeat the same raw-data path locally after the clean-runner check.
+
+## Author and publication decisions
+
+- Funding: —. ORCID: —. External human adoption: none documented.
+- Formal candidate release, immutable archival deposit and DOI: on hold.
+- Final author approval, current submission-form fields, any publication fee decision and actual submission: not yet performed.
+
+The goal is a useful software companion article and practical submission experience. Institutional assessment and acceptance are not completion criteria. Missing external adoption does not block preparation. This pass ends after its defined checks, documentation and author report; it does not automatically expand into a new algorithm study.

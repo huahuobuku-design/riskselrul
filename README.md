@@ -95,7 +95,9 @@ See [validation](docs/validation.md), [architecture](docs/architecture.md), and 
 
 ## License and release status
 
-This source uses Apache-2.0. Human authorship/contact details and a persistent archive DOI remain unfilled; see the [release checklist](docs/release_checklist.md). A Git tag is not a DOI archive. No DOI, journal acceptance, external users, or speed measurements are invented. This directory contains no access token, private coordination database, chat screenshot, third-party paper source code, or downloaded article PDF.
+This source uses Apache-2.0. Author and maintainer: Jinxian Wu, College of Publishing, University of Shanghai for Science and Technology; contact: 2435050925@st.usst.edu.cn. See the [release checklist](docs/release_checklist.md) for current submission status. Formal release and DOI archival are on hold; the earlier validated tag is preserved.
+
+For concrete input/output tasks, follow [three practical diagnostic tasks](docs/user_tasks.md). These are self-designed examples, separate from external adoption evidence.
 
 
 The archived `reproducibility/source_manifest.json` describes the original 0.1.0 review input. The current development source inventory is `reproducibility/candidate_source_manifest.json`.

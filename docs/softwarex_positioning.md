@@ -1,4 +1,4 @@
-# Software article positioning draft
+# Software article positioning
 
 Working title: **RiskSelRUL: reproducible sensor-fault experiments and independent diagnostics for selective remaining useful life prediction**.
 
@@ -8,7 +8,7 @@ An illustrative example should start from NASA files, produce per-engine predict
 
 Potential research reuse includes replacing a point predictor, comparing selectors at fixed predictions and retained counts, examining changes under unseen sensor groups, and diagnosing acceptance collapse without counting rejection as zero error. These are intended uses, not evidence that independent researchers have already adopted the software.
 
-The present manuscript outline is motivation, software architecture/interfaces, an executed example, validation, software impact/reuse, and limitations. It remains a draft until the current official template and metadata requirements are checked. Authors, support contact, repository/release link, and citation identifiers are not invented.
+The current companion manuscript is paper/manuscript_v0.6.md and follows SoftwareX OSP template version 6. It describes software interfaces, executed examples, validation and reuse. Author and contact are recorded in docs/release_checklist.md. Final release and DOI archival are on hold. Self-designed user tasks in docs/user_tasks.md demonstrate practical workflows without implying external adoption.
 
 Existing-work anchors (not a priority or superiority claim):
 

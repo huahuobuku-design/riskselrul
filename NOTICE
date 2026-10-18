@@ -1,5 +1,6 @@
-RiskSelRUL 0.1.0 local candidate
+RiskSelRUL 0.1.1.dev0 SoftwareX candidate
+Author and maintainer: Jinxian Wu (Wu Jinxian).
 Numerical workflow derived from this project's reviewed WP05A implementation.
 Archived inference states and forward path derived from this project's WP04A implementation.
 NASA C-MAPSS and external methods/papers are separate works and are not relicensed here.
-Final human author/contributor attribution remains a release-review item.
+AI assistance and contributor roles are described in the accompanying manuscript.
