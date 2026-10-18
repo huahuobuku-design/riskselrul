@@ -8,7 +8,7 @@ It includes the updated software, generic-regression example, manuscript draft,
 and expanded experimental records.
 
 - [Current code and installation guide](https://github.com/huahuobuku-design/riskselrul/tree/softwarex-dev)
-- [Manuscript draft](https://github.com/huahuobuku-design/riskselrul/blob/softwarex-dev/paper/manuscript_v0.5.md)
+- [Manuscript draft](https://github.com/huahuobuku-design/riskselrul/blob/softwarex-dev/paper/manuscript_v0.6.md)
 - [Supplementary materials and checks](https://github.com/huahuobuku-design/riskselrul/blob/softwarex-dev/paper/README.md)
 - [Candidate CI](https://github.com/huahuobuku-design/riskselrul/actions?query=branch%3Asoftwarex-dev)
 
