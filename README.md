@@ -1,10 +1,14 @@
 # RiskSelRUL
 
-An **alpha research software package** for reproducible sensor-fault experiments and selective remaining useful life (RUL) diagnostics on NASA C-MAPSS FD001/FD003.
+A Python software toolkit for reproducible sensor-fault experiments and selective remaining useful life (RUL) diagnostics on NASA C-MAPSS FD001/FD003.
 
 It connects raw data checks, engine-grouped out-of-fold error estimation, calibration, held-out fault evaluation, paired engine bootstrap, and independent arithmetic auditing. A separate NumPy-only interface runs 78 archived WP04A numeric inference states.
 
-**No new prediction algorithm, fault-wise risk guarantee, or lossless acceleration is claimed.** C-MAPSS is simulated engine data. This is a SoftwareX preparation candidate, not an accepted publication or a validated maintenance product.
+Use the NumPy interfaces with predictions and scores from any regression model, or reproduce the supplied sensor-fault workflow on C-MAPSS simulated engine trajectories.
+
+## Paper and reproducibility materials
+
+The [SoftwareX manuscript draft](paper/manuscript_v0.5.md), [Word manuscript](paper/RiskSelRUL_SoftwareX_v0.5.docx), [API reference](docs/API.md), and [supplementary materials](paper/README.md) accompany this version. The v0.5 manuscript is the reviewed local draft prepared before this repository update; its permanent-link placeholders are pending editorial revision.
 
 ## Install
 
@@ -20,11 +24,9 @@ The package must be installed before running the examples. Training dependencies
 
 ## Five-minute array example (no NASA download)
 
-This branch/tag is the **validated 0.1.0 software profile** used in the SoftwareX draft. The repository's existing main branch is a different 1.0.0 implementation. Do not combine their CLI commands or dependency claims.
+This development branch contains **0.1.1.dev0**. It adds saved-table input guards to the frozen 0.1.0 benchmark used for the supplementary experiments. Clone this branch with `git clone --branch softwarex-dev https://github.com/huahuobuku-design/riskselrul.git`, then install from its root; the earlier public validated-v0.1.0 tag remains available as the experiment baseline.
 
 ```sh
-git clone --branch validated-v0.1.0 https://github.com/huahuobuku-design/riskselrul.git
-cd riskselrul
 python -m pip install .
 python examples/quickstart_arrays.py --out example_output
 ```
@@ -32,6 +34,12 @@ python examples/quickstart_arrays.py --out example_output
 The synthetic input produces `input.csv`, `curve.csv` and `result.json`. Fixed k=4 retains four of eight inputs with MSE 2.5; a separately calibrated threshold retains three with MSE 3.0. These values demonstrate the API and are not NASA model results. Choose a new output directory each time.
 
 The core requires NumPy. Training and saved benchmark-table auditing use `python -m pip install '.[train]'`. All 78 numeric archived inference states are included in the wheel and source distribution. Source tests use pytest (`python -m pip install '.[train,dev]'`, then `python -m pytest`); the different 1.0.0 implementation uses unittest.
+
+## General regression reuse
+
+With the training extra installed, run `python examples/04_generic_regression.py --out generic_example`.
+It exports reproducible OOF/calibration/test results for the diabetes and synthetic
+Friedman examples. See [the example guide](docs/extended_examples.md).
 
 ## Optional raw-data benchmark
 
@@ -88,3 +96,6 @@ See [validation](docs/validation.md), [architecture](docs/architecture.md), and 
 ## License and release status
 
 This source uses Apache-2.0. Human authorship/contact details and a persistent archive DOI remain unfilled; see the [release checklist](docs/release_checklist.md). A Git tag is not a DOI archive. No DOI, journal acceptance, external users, or speed measurements are invented. This directory contains no access token, private coordination database, chat screenshot, third-party paper source code, or downloaded article PDF.
+
+
+The archived `reproducibility/source_manifest.json` describes the original 0.1.0 review input. The current development source inventory is `reproducibility/candidate_source_manifest.json`.

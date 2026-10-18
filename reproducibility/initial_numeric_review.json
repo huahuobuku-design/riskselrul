@@ -1,0 +1,177 @@
+{
+  "verified_at": "2026-10-18T06:34:06.583113+00:00",
+  "manifest_files_verified": 315,
+  "protocol_and_config_match_presend_hashes": true,
+  "command_logs": [
+    {
+      "name": "A_audit_FD001_s42",
+      "exit_code": 0,
+      "elapsed_s": 3.962
+    },
+    {
+      "name": "A_audit_FD001_s43",
+      "exit_code": 0,
+      "elapsed_s": 4.23
+    },
+    {
+      "name": "A_audit_FD001_s44",
+      "exit_code": 0,
+      "elapsed_s": 3.866
+    },
+    {
+      "name": "A_audit_FD003_s42",
+      "exit_code": 0,
+      "elapsed_s": 3.899
+    },
+    {
+      "name": "A_audit_FD003_s43",
+      "exit_code": 0,
+      "elapsed_s": 3.965
+    },
+    {
+      "name": "A_audit_FD003_s44",
+      "exit_code": 0,
+      "elapsed_s": 3.937
+    },
+    {
+      "name": "A_reproduce_FD001_s42",
+      "exit_code": 0,
+      "elapsed_s": 117.824
+    },
+    {
+      "name": "A_reproduce_FD001_s43",
+      "exit_code": 0,
+      "elapsed_s": 118.959
+    },
+    {
+      "name": "A_reproduce_FD001_s44",
+      "exit_code": 0,
+      "elapsed_s": 120.355
+    },
+    {
+      "name": "A_reproduce_FD003_s42",
+      "exit_code": 0,
+      "elapsed_s": 122.896
+    },
+    {
+      "name": "A_reproduce_FD003_s43",
+      "exit_code": 0,
+      "elapsed_s": 121.563
+    },
+    {
+      "name": "A_reproduce_FD003_s44",
+      "exit_code": 0,
+      "elapsed_s": 121.751
+    },
+    {
+      "name": "B_check_aurc_formula",
+      "exit_code": 0,
+      "elapsed_s": 0.166
+    },
+    {
+      "name": "B_diagnostics",
+      "exit_code": 0,
+      "elapsed_s": 23.936
+    },
+    {
+      "name": "C_reuse",
+      "exit_code": 0,
+      "elapsed_s": 1.176
+    },
+    {
+      "name": "D_bug_patch_test",
+      "exit_code": 0,
+      "elapsed_s": 4.081
+    },
+    {
+      "name": "D_bug_repro_audit_zero_rows",
+      "exit_code": 0,
+      "elapsed_s": 0.513
+    },
+    {
+      "name": "D_edge_tests",
+      "exit_code": 0,
+      "elapsed_s": 8.809
+    },
+    {
+      "name": "D_example01",
+      "exit_code": 0,
+      "elapsed_s": 77.61
+    },
+    {
+      "name": "D_example01_audit",
+      "exit_code": 0,
+      "elapsed_s": 1.525
+    },
+    {
+      "name": "D_npz_inventory",
+      "exit_code": 0,
+      "elapsed_s": 0.377
+    },
+    {
+      "name": "D_pytest_cov",
+      "exit_code": 0,
+      "elapsed_s": 1.051
+    },
+    {
+      "name": "pip_install_train",
+      "exit_code": 0,
+      "elapsed_s": 9.092
+    },
+    {
+      "name": "pip_install_wheel",
+      "exit_code": 0,
+      "elapsed_s": 3.588
+    },
+    {
+      "name": "venv_create",
+      "exit_code": 0,
+      "elapsed_s": 1.657
+    }
+  ],
+  "trusted_local_audits": {
+    "FD001_s42": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    },
+    "FD001_s43": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    },
+    "FD001_s44": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    },
+    "FD003_s42": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    },
+    "FD003_s43": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    },
+    "FD003_s44": {
+      "checked": 16176,
+      "mismatches": 0,
+      "failures": [],
+      "scope": "Independent numeric recomputation only; not an execution-history or leakage proof"
+    }
+  },
+  "independent_scalar_or_array_checks": 435695,
+  "mismatches": 0,
+  "failures": [],
+  "B_rows_recomputed": 36288,
+  "C_runs_recomputed": 6,
+  "C_split_fold_id_checks_passed": true,
+  "scope": "Received-table recomputation and log inspection, not fresh model fitting; B bootstrap intervals and C preprocessing statistics not independently rerun yet."
+}

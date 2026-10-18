@@ -1,0 +1,71 @@
+{
+  "task": "SX-EXPAND-20261017",
+  "verified_at": "2026-10-18T06:31:50.330673+00:00",
+  "archives": [
+    {
+      "name": "SX_EXPAND_20261017_results.zip",
+      "bytes": 2725018,
+      "sha256": "3f3550bbbf2cfb8888ddadeedcc877e9c42cdb751daa63775d238c650a76b9d1",
+      "members": 129,
+      "unpacked_bytes": 11336314,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD001_s42.zip",
+      "bytes": 4716052,
+      "sha256": "1026f796f2f0c10bd15c2285e074c11caccfad4b3eb08753a1a8fc55e71b91d2",
+      "members": 27,
+      "unpacked_bytes": 27460172,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD001_s43.zip",
+      "bytes": 4706369,
+      "sha256": "08142f52ec2cda843a3267db4cd02c27c0a11a604bdb599fa47ac5d5a9db28bc",
+      "members": 27,
+      "unpacked_bytes": 27454224,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD001_s44.zip",
+      "bytes": 4723889,
+      "sha256": "1d59e2662add8dda634df5e178d31b5713636358d22d1e678b50bacb6b243eeb",
+      "members": 27,
+      "unpacked_bytes": 27455903,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD003_s42.zip",
+      "bytes": 4800486,
+      "sha256": "c1d1de74280c80c7deeb77e0d5793191212ef647b0a4912904b11a3de71aaa20",
+      "members": 27,
+      "unpacked_bytes": 28089637,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD003_s43.zip",
+      "bytes": 4782538,
+      "sha256": "e8053c294f03e53a63d262319446ee569dfec8147a6fd6251f6032ccb5983ed5",
+      "members": 27,
+      "unpacked_bytes": 28057355,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_A_FD003_s44.zip",
+      "bytes": 4728892,
+      "sha256": "bbaa858eae2a69f7bf6d621fdd92c5e38e7f16569a2010f738e41da5ccd09bf9",
+      "members": 27,
+      "unpacked_bytes": 28001222,
+      "crc_and_safe_paths": true
+    },
+    {
+      "name": "SX_EXPAND_20261017_numeric_D_example01.zip",
+      "bytes": 3135251,
+      "sha256": "f2752fea41ec5e4cbb3fcf1774fa9274f8850adadcdb800a5ac8bc4a5231ba7f",
+      "members": 25,
+      "unpacked_bytes": 18708769,
+      "crc_and_safe_paths": true
+    }
+  ],
+  "received_code_executed": false
+}

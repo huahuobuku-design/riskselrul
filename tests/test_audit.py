@@ -7,7 +7,7 @@ pd = pytest.importorskip('pandas', reason='independent table audit is a training
 from riskselrul.audit import audit_run
 
 
-def test_saved_flags_empty_retention_and_corruption_detection(tmp_path):
+def _write_valid_run(tmp_path):
     heads = ('H_log','H_sq','pred_only','fault_indicator')
     predictor = 'ridge_clean'
     tables, metric_rows = [], []
@@ -35,6 +35,11 @@ def test_saved_flags_empty_retention_and_corruption_detection(tmp_path):
     calibration.to_csv(tmp_path/'calib_FD001_s42.csv',index=False)
     pd.DataFrame(metric_rows).to_csv(tmp_path/'metrics_long.csv',index=False)
     (tmp_path/'thresholds_FD001_s42.json').write_text(json.dumps({predictor:{head:79.2 for head in heads}}))
+    return combined, path
+
+
+def test_saved_flags_empty_retention_and_corruption_detection(tmp_path):
+    combined, path = _write_valid_run(tmp_path)
     result, direction = audit_run(tmp_path)
     assert result['checked'] > 100 and result['mismatches']==0
     assert all(row['denominator']==0 and row['direction_agreement'] is None for row in direction)
@@ -43,3 +48,19 @@ def test_saved_flags_empty_retention_and_corruption_detection(tmp_path):
     combined.to_csv(path,index=False)
     corrupted, _ = audit_run(tmp_path)
     assert corrupted['mismatches']==1
+
+
+@pytest.mark.parametrize("case", ["empty", "mixed_empty", "no_predictor"])
+def test_empty_or_schema_free_numeric_table_is_rejected(tmp_path, case):
+    table, path = _write_valid_run(tmp_path)
+    if case == "empty":
+        table.head(0).to_csv(path, index=False)
+        message = "Empty numeric test table"
+    elif case == "mixed_empty":
+        table.head(0).to_csv(tmp_path / "test_FD001_s42_st9002.csv", index=False)
+        message = "Empty numeric test table"
+    else:
+        table.drop(columns=["pred_ridge_clean"]).to_csv(path, index=False)
+        message = "no prediction columns"
+    with pytest.raises(ValueError, match=message):
+        audit_run(tmp_path)

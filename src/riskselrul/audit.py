@@ -17,9 +17,13 @@ def audit_run(run_directory):
         ds, seed, stream = path.stem[5:].split("_")
         seed, stream = int(seed[1:]), int(stream[2:])
         table = pd.read_csv(path, float_precision="round_trip")
+        if table.empty:
+            raise ValueError(f"Empty numeric test table: {path.name}")
         thresholds = json.loads((root/f"thresholds_{ds}_s{seed}.json").read_text())
         calibration = pd.read_csv(root/f"calib_{ds}_s{seed}.csv", float_precision="round_trip")
         predictors = [name[5:] for name in table.columns if name.startswith("pred_")]
+        if not predictors:
+            raise ValueError(f"Numeric test table has no prediction columns: {path.name}")
         clean = table[table.scen == "clean"].set_index("engine")
 
         def check(name, actual, expected):

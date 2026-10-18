@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.1.dev0 — development update, 2026-10-18
+
+- Reject header-only numeric test tables, including a mix of valid and empty tables.
+- Reject nonempty test tables without prediction columns.
+- Preserve arithmetic and decisions for valid saved outputs.
+- Add three regression cases. Frozen 0.1.0 experimental outputs remain unchanged.
+- Add a general-regression example, API documentation, expanded experimental outputs and manuscript materials.
+
+
 ## 0.1.0 local candidate — 2026-10-17
 
 - First standalone installable package with a public command line and optional training dependencies.

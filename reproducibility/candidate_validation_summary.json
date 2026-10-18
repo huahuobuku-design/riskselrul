@@ -1,0 +1,13 @@
+{
+  "version": "0.1.1.dev0",
+  "installed_wheel_verified": true,
+  "pytest_passed": 21,
+  "source_and_wheel_state_count": 78,
+  "generic_regression_runs": 6,
+  "wheel_sha256": "9861343a3ee3ca155e58e94bad8fc462ad95253492c84c6d15b072c09a6980e1",
+  "sdist_sha256": "5aab3921356882a92efbb7523d000a6996f2b5ab920df56466073eb32e4e0074",
+  "platform": "win32",
+  "remote_ci": "Pending for this GitHub commit; see Actions.",
+  "saved_table_audit_checks": 97056,
+  "saved_table_mismatches": 0
+}

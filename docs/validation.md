@@ -25,3 +25,20 @@ Against the prior independent WP05A local reproduction, 8,400 point predictions,
 An initial package run completed model training but failed in the new auditor because an archived underscore column name was read as a dotted name. The auditor was corrected, a regression test was added, and a second fresh raw-data run passed. The first run/logs remain in the local validation archive. The full two-dataset/three-seed/three-stream analysis was not re-executed for this alpha package.
 
 These are migration/integration results, not new evidence of algorithm superiority. The compact real example table is in `reproducibility/example_metrics_FD001_s42_st9001.csv`; it is not a synthetic benchmark and is not the complete multi-seed analysis.
+
+
+## Expanded 0.1.0 experiments and 0.1.1.dev0 software checks
+
+The 2026-10-17 expansion executed six complete dataset/seed fits and eighteen
+dataset/seed/fault-stream cases on FD001/FD003. Received output tables, fitting
+boundaries, command logs and conditional interval files accompany S2.
+Independent local review recomputed all point metrics, reconstructed fold
+preprocessing from the original raw files, refitted six non-RUL examples and
+reconstructed all 2,688 representative interval rows by explicit resampling.
+Results matched within numerical tolerances. The current review did not refit
+C-MAPSS predictors. See `reproducibility/deep_review.json` and the Chinese review.
+
+The 0.1.1.dev0 candidate adds audit schema/empty-table guards and an executable
+general-regression example. It passed 21 local installed-wheel tests and both
+quickstart examples. CI for this branch builds and installs a wheel, then runs
+the tests and examples on Ubuntu and Windows. It does not rerun raw C-MAPSS training.
