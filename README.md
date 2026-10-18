@@ -8,7 +8,7 @@ Use the NumPy interfaces with predictions and scores from any regression model, 
 
 ## Paper and reproducibility materials
 
-The [SoftwareX manuscript draft](paper/manuscript_v0.6.md), [Word manuscript](paper/RiskSelRUL_SoftwareX_v0.6.docx), [API reference](docs/API.md), and [supplementary materials](paper/README.md) accompany this version. The v0.6 manuscript cites a fixed public source commit and the passing Ubuntu/Windows CI evidence.
+The [SoftwareX manuscript draft](paper/manuscript_v0.7.md), [Word manuscript](paper/RiskSelRUL_SoftwareX_v0.7.docx), [API reference](docs/API.md), and [supplementary materials](paper/README.md) accompany this version. The v0.7 manuscript cites a fixed public source commit and the passing Ubuntu/Windows CI evidence. Fresh raw-data execution records and measured cross-platform fit differences are documented in [the execution report](docs/cold_start_validation.md).
 
 ## Install
 

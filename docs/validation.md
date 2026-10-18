@@ -41,3 +41,8 @@ C-MAPSS predictors. See `reproducibility/deep_review.json` and the Chinese revie
 The 0.1.1.dev0 candidate adds audit schema/empty-table guards and an executable
 general-regression example. It passed 21 local installed-wheel tests and both
 quickstart examples. The earlier candidate CI built and installed a wheel and ran tests and examples on Ubuntu and Windows/Python 3.12, without raw training. The new finalization workflow adds Python 3.10 and separate fresh-download raw-training jobs; its results are recorded separately after actual execution.
+
+
+## Completed clean-runner and local finalization
+
+The new workflow and local raw-data checks have now executed successfully. See [the dated execution report](cold_start_validation.md) and S3. Full workflow execution and independent saved-output arithmetic pass; cross-platform fitted predictions and acceptance decisions differ, as quantified there.

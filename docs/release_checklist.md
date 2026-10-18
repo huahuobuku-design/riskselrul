@@ -8,14 +8,16 @@ Updated 2026-10-18. The canonical SoftwareX candidate is **0.1.1.dev0 on softwar
 - Apache-2.0 license is included. NASA data and external packages remain separate works; raw NASA files are not redistributed.
 - Candidate installed-wheel CI passed 21 tests on Ubuntu and Windows/Python 3.12; see reproducibility/candidate_ci_verification.json and ci_test_counts.json.
 - The frozen expansion includes six dataset/seed fits, eighteen fault-stream cases and independent local arithmetic/preprocessing/interval checks in S2. Received execution logs and local model refitting have distinct evidence scopes.
-- Manuscript v0.6, API reference, minimal example and supplements are public.
+- Manuscript v0.7, API reference, minimal example and supplements are public.
 
-## This finalization pass
+## Finalization checks completed
 
-- Add self-designed functional user tasks, distinct from external human adoption.
-- Extend fresh-runner testing to Python 3.10 and 3.12 on Ubuntu and Windows.
-- Add fresh-download, strict-hash, full training and audit jobs for FD001 and FD003, seed 42 / stream 9001 / 2,000 bootstrap draws. Record execution evidence separately after completion; configuration alone is not PASS.
-- Repeat the same raw-data path locally after the clean-runner check.
+- Three self-designed functional user tasks passed; these are not external adoption.
+- Four Ubuntu/Windows and Python 3.10/3.12 combinations each passed 21 tests.
+- Two fresh Ubuntu raw jobs and the same two local Windows raw workflows passed.
+- Actual output files and selected arithmetic/fold boundaries were independently checked.
+- Cross-platform refit differences are documented in docs/cold_start_validation.md and S3.
+- Manuscript v0.7 is the current draft. The previous v0.6 and old tags remain preserved.
 
 ## Author and publication decisions
 

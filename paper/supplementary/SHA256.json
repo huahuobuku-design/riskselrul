@@ -8,5 +8,10 @@
     "file": "Supplementary_S2_v0.5.zip",
     "bytes": 35374731,
     "sha256": "06ef58f6bc591aa35b0d20e6661a50b0ae8c1c0b6b291127634b9ade472f1e8f"
+  },
+  {
+    "file": "Supplementary_S3_cold_start_20261018.zip",
+    "bytes": 12981819,
+    "sha256": "badab756268b9026bf16c4d35097bf1c17405756dd3976e49c83ad676c21c565"
   }
 ]

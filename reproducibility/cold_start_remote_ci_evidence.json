@@ -1,0 +1,90 @@
+{
+  "run_id": 39124409463,
+  "tested_commit": "5a90e3140d8d9c0610b7e8f6a7121d0f6277fb32",
+  "tests": [
+    {
+      "job_id": 117666412954,
+      "name": "test (windows-latest, 3.10)",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-18T11:43:59.6625460Z Successfully set up CPython (3.10.11)\r",
+        "2026-10-18T11:44:46.2178034Z C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64\\lib\\site-packages\\riskselrul\\__init__.py\r",
+        "2026-10-18T11:44:47.7860244Z 21 passed in 0.90s\r",
+        "2026-10-18T11:44:50.5062000Z   \"status\": \"PASS\"\r"
+      ]
+    },
+    {
+      "job_id": 117666412958,
+      "name": "test (ubuntu-latest, 3.10)",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-18T11:43:56.8323632Z Successfully set up CPython (3.10.22)",
+        "2026-10-18T11:44:23.2027301Z /opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/riskselrul/__init__.py",
+        "2026-10-18T11:44:24.9400376Z 21 passed in 0.88s",
+        "2026-10-18T11:44:27.1931979Z   \"status\": \"PASS\""
+      ]
+    },
+    {
+      "job_id": 117666412980,
+      "name": "test (ubuntu-latest, 3.12)",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-18T11:43:55.6408759Z Successfully set up CPython (3.12.15)",
+        "2026-10-18T11:44:12.4409146Z /opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/riskselrul/__init__.py",
+        "2026-10-18T11:44:13.3466972Z 21 passed in 0.52s",
+        "2026-10-18T11:44:15.0131217Z   \"status\": \"PASS\""
+      ]
+    },
+    {
+      "job_id": 117666413015,
+      "name": "test (windows-latest, 3.12)",
+      "conclusion": "success",
+      "lines": [
+        "2026-10-18T11:43:59.6737680Z Successfully set up CPython (3.12.10)\r",
+        "2026-10-18T11:44:48.1600107Z C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Lib\\site-packages\\riskselrul\\__init__.py\r",
+        "2026-10-18T11:44:50.1148056Z 21 passed in 0.97s\r",
+        "2026-10-18T11:44:53.4560819Z   \"status\": \"PASS\"\r"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12135621141,
+      "name": "cold-start-FD001",
+      "size_in_bytes": 3090724,
+      "url": "https://api.github.com/repos/huahuobuku-design/riskselrul/actions/artifacts/12135621141",
+      "archive_download_url": "https://api.github.com/repos/huahuobuku-design/riskselrul/actions/artifacts/12135621141/zip",
+      "expired": false,
+      "created_at": "2026-10-18T11:46:32Z",
+      "expires_at": "2027-01-16T11:43:49Z",
+      "updated_at": "2026-10-18T11:46:32Z",
+      "digest": "sha256:01a3b3cb90c6ca193ed62c58430ad20b1d17c81a9c95bb03da0da5efef12ef62",
+      "workflow_run": {
+        "id": 39124409463,
+        "repository_id": 1422458888,
+        "head_repository_id": 1422458888,
+        "head_branch": "softwarex-dev",
+        "head_sha": "5a90e3140d8d9c0610b7e8f6a7121d0f6277fb32"
+      }
+    },
+    {
+      "id": 12135437526,
+      "name": "cold-start-FD003",
+      "size_in_bytes": 3182146,
+      "url": "https://api.github.com/repos/huahuobuku-design/riskselrul/actions/artifacts/12135437526",
+      "archive_download_url": "https://api.github.com/repos/huahuobuku-design/riskselrul/actions/artifacts/12135437526/zip",
+      "expired": false,
+      "created_at": "2026-10-18T11:46:34Z",
+      "expires_at": "2027-01-16T11:43:49Z",
+      "updated_at": "2026-10-18T11:46:34Z",
+      "digest": "sha256:29b5d8440d4a7e94d4a9cc44c89246282fa539104d784b89767fb9c29e6cc8ff",
+      "workflow_run": {
+        "id": 39124409463,
+        "repository_id": 1422458888,
+        "head_repository_id": 1422458888,
+        "head_branch": "softwarex-dev",
+        "head_sha": "5a90e3140d8d9c0610b7e8f6a7121d0f6277fb32"
+      }
+    }
+  ]
+}

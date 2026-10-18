@@ -1,0 +1,222 @@
+{
+  "status": "PASS",
+  "records": [
+    {
+      "scope": "remote",
+      "status": "PASS",
+      "dataset": "FD001",
+      "seed": 42,
+      "stream": 9001,
+      "bootstrap_reps": 2000,
+      "files_hashed": 24,
+      "package_audit_checks": 5392,
+      "independent_scalar_metric_checks": 1024,
+      "oof_rows_checked": 5600,
+      "fold_and_final_records": 6,
+      "max_sensor_mean_difference": 0.0,
+      "max_sensor_sd_difference": 0.0,
+      "test_rows": 2100,
+      "raw_training_seconds": 124.99166703224182,
+      "versions": {
+        "numpy": "2.5.4",
+        "pandas": "3.0.6",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "threadpoolctl": "3.7.0"
+      }
+    },
+    {
+      "scope": "remote",
+      "status": "PASS",
+      "dataset": "FD003",
+      "seed": 42,
+      "stream": 9001,
+      "bootstrap_reps": 2000,
+      "files_hashed": 24,
+      "package_audit_checks": 5392,
+      "independent_scalar_metric_checks": 1024,
+      "oof_rows_checked": 5600,
+      "fold_and_final_records": 6,
+      "max_sensor_mean_difference": 0.0,
+      "max_sensor_sd_difference": 0.0,
+      "test_rows": 2100,
+      "raw_training_seconds": 130.67881989479065,
+      "versions": {
+        "numpy": "2.5.4",
+        "pandas": "3.0.6",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "threadpoolctl": "3.7.0"
+      }
+    },
+    {
+      "scope": "local",
+      "status": "PASS",
+      "dataset": "FD001",
+      "seed": 42,
+      "stream": 9001,
+      "bootstrap_reps": 2000,
+      "files_hashed": 24,
+      "package_audit_checks": 5392,
+      "independent_scalar_metric_checks": 1024,
+      "oof_rows_checked": 5600,
+      "fold_and_final_records": 6,
+      "max_sensor_mean_difference": 0.0,
+      "max_sensor_sd_difference": 0.0,
+      "test_rows": 2100,
+      "raw_training_seconds": 88.98711609840393,
+      "versions": {
+        "numpy": "2.5.4",
+        "pandas": "3.0.6",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "threadpoolctl": "3.7.0"
+      }
+    },
+    {
+      "scope": "local",
+      "status": "PASS",
+      "dataset": "FD003",
+      "seed": 42,
+      "stream": 9001,
+      "bootstrap_reps": 2000,
+      "files_hashed": 24,
+      "package_audit_checks": 5392,
+      "independent_scalar_metric_checks": 1024,
+      "oof_rows_checked": 5600,
+      "fold_and_final_records": 6,
+      "max_sensor_mean_difference": 0.0,
+      "max_sensor_sd_difference": 0.0,
+      "test_rows": 2100,
+      "raw_training_seconds": 91.72280859947205,
+      "versions": {
+        "numpy": "2.5.4",
+        "pandas": "3.0.6",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "threadpoolctl": "3.7.0"
+      }
+    }
+  ],
+  "scope": "Received files, hashes, selected metric recomputation, recorded fold disjointness and independently rebuilt sensor statistics; not a proof of every possible leakage path",
+  "cross_platform": [
+    {
+      "dataset": "FD001",
+      "matched_rows": 2100,
+      "comparisons": {
+        "pred_": {
+          "values": 8400,
+          "exact_differences": 6032,
+          "max_absolute_difference": 8.955139462254067
+        },
+        "score_": {
+          "values": 33600,
+          "exact_differences": 24542,
+          "max_absolute_difference": 0.5600482734864913
+        },
+        "acc_": {
+          "values": 33600,
+          "exact_differences": 418,
+          "max_absolute_difference": 1.0
+        },
+        "sel80_": {
+          "values": 33600,
+          "exact_differences": 442,
+          "max_absolute_difference": 1.0
+        }
+      },
+      "per_predictor": {
+        "ridge_clean": {
+          "max_prediction_difference": 4.433786671143025e-12,
+          "prediction_differences_over_1e_8": 0
+        },
+        "ridge_aug": {
+          "max_prediction_difference": 5.4285465012071654e-12,
+          "prediction_differences_over_1e_8": 0
+        },
+        "hgb_clean": {
+          "max_prediction_difference": 0.0,
+          "prediction_differences_over_1e_8": 0
+        },
+        "hgb_aug": {
+          "max_prediction_difference": 8.955139462254067,
+          "prediction_differences_over_1e_8": 2100
+        }
+      },
+      "metric_differences": {
+        "thr.k": {
+          "compared_cells": 336,
+          "max_absolute_difference": 10.0
+        },
+        "thr.ret_RMSE": {
+          "compared_cells": 336,
+          "max_absolute_difference": 2.979576232640543
+        },
+        "k80.sel.RMSE": {
+          "compared_cells": 336,
+          "max_absolute_difference": 2.286695769211512
+        }
+      },
+      "interpretation": "Platform-specific fits compared descriptively; no cross-platform bitwise requirement"
+    },
+    {
+      "dataset": "FD003",
+      "matched_rows": 2100,
+      "comparisons": {
+        "pred_": {
+          "values": 8400,
+          "exact_differences": 5661,
+          "max_absolute_difference": 10.171126760146407
+        },
+        "score_": {
+          "values": 33600,
+          "exact_differences": 24225,
+          "max_absolute_difference": 1.7357052327226623
+        },
+        "acc_": {
+          "values": 33600,
+          "exact_differences": 242,
+          "max_absolute_difference": 1.0
+        },
+        "sel80_": {
+          "values": 33600,
+          "exact_differences": 394,
+          "max_absolute_difference": 1.0
+        }
+      },
+      "per_predictor": {
+        "ridge_clean": {
+          "max_prediction_difference": 6.0822458181064576e-12,
+          "prediction_differences_over_1e_8": 0
+        },
+        "ridge_aug": {
+          "max_prediction_difference": 1.6051160400820663e-11,
+          "prediction_differences_over_1e_8": 0
+        },
+        "hgb_clean": {
+          "max_prediction_difference": 0.3992423443920785,
+          "prediction_differences_over_1e_8": 4
+        },
+        "hgb_aug": {
+          "max_prediction_difference": 10.171126760146407,
+          "prediction_differences_over_1e_8": 2099
+        }
+      },
+      "metric_differences": {
+        "thr.k": {
+          "compared_cells": 336,
+          "max_absolute_difference": 9.0
+        },
+        "thr.ret_RMSE": {
+          "compared_cells": 336,
+          "max_absolute_difference": 4.220233007493601
+        },
+        "k80.sel.RMSE": {
+          "compared_cells": 336,
+          "max_absolute_difference": 1.738225208614999
+        }
+      },
+      "interpretation": "Platform-specific fits compared descriptively; no cross-platform bitwise requirement"
+    }
+  ]
+}
