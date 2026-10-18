@@ -87,6 +87,23 @@ python examples/02_coverage_error_curve.py
 python examples/03_load_lean_state.py
 ```
 
+## Tests and module entry point
+
+This repository's 1.0.0 tests use the Python standard-library runner; pytest is
+not required for them. Install the runtime dependencies first, then run:
+
+```bash
+python -m unittest discover -s tests -v
+python -m riskselrul --help
+```
+
+For source-tree use without installation, put `src` on `PYTHONPATH` first
+(`PYTHONPATH=src python -m riskselrul --help` on POSIX;
+`$env:PYTHONPATH='src'; python -m riskselrul --help` in PowerShell).
+Runtime dependencies are still required. This is different from the separately
+reviewed 0.1.0 alpha package, whose tests use pytest and whose training command
+is `reproduce`. See `validation_inputs/README.md` for the CI profile boundary.
+
 ## What is in the box
 
 | Path | Contents |
