@@ -7,7 +7,16 @@
   "wheel_sha256": "9861343a3ee3ca155e58e94bad8fc462ad95253492c84c6d15b072c09a6980e1",
   "sdist_sha256": "5aab3921356882a92efbb7523d000a6996f2b5ab920df56466073eb32e4e0074",
   "platform": "win32",
-  "remote_ci": "Pending for this GitHub commit; see Actions.",
+  "remote_ci": {
+    "tested_commit": "8a32e1946bdeb1cbf504b27875860d6a3445a8b5",
+    "conclusion": "success",
+    "os": [
+      "Ubuntu",
+      "Windows"
+    ],
+    "run_url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/39108599795",
+    "raw_cmapss_training": false
+  },
   "saved_table_audit_checks": 97056,
   "saved_table_mismatches": 0
 }

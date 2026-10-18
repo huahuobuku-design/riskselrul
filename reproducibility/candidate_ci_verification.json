@@ -1,0 +1,173 @@
+{
+  "commit": "8a32e1946bdeb1cbf504b27875860d6a3445a8b5",
+  "branch": "softwarex-dev",
+  "runs": [
+    {
+      "id": 39108599795,
+      "name": "SoftwareX candidate tests",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/39108599795",
+      "jobs": [
+        {
+          "id": 117619691718,
+          "name": "test (ubuntu-latest)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/39108599795/job/117619691718",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install training and test dependencies",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build wheel and source distribution",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install built wheel",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check installed version and location",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run regression tests",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Command line entry",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Array example",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "General regression example",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        },
+        {
+          "id": 117619691918,
+          "name": "test (windows-latest)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/huahuobuku-design/riskselrul/actions/runs/39108599795/job/117619691918",
+          "steps": [
+            {
+              "name": "Set up job",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install training and test dependencies",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Build wheel and source distribution",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Install built wheel",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Check installed version and location",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Run regression tests",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Command line entry",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Array example",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "General regression example",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/setup-python@v5",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Post Run actions/checkout@v4",
+              "status": "completed",
+              "conclusion": "success"
+            },
+            {
+              "name": "Complete job",
+              "status": "completed",
+              "conclusion": "success"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
