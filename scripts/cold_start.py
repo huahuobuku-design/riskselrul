@@ -11,6 +11,7 @@ import subprocess
 import sys
 import time
 import urllib.request
+import zipfile
 
 URL = 'https://phm-datasets.s3.amazonaws.com/NASA/6.+Turbofan+Engine+Degradation+Simulation+Data+Set.zip'
 
@@ -34,6 +35,19 @@ def main():
                 dest.write(chunk)
         manifest['archive_sha256'] = hashlib.sha256(archive.read_bytes()).hexdigest()
         manifest['archive_bytes'] = archive.stat().st_size
+        # NASA wraps CMAPSSData.zip in an outer archive. Copy only that member;
+        # never extract untrusted archive paths to the filesystem.
+        with zipfile.ZipFile(archive) as outer:
+            nested = [item for item in outer.infolist()
+                      if item.filename.replace('\\', '/').split('/')[-1] == 'CMAPSSData.zip']
+            if nested:
+                if len(nested) != 1 or nested[0].file_size > 32_000_000:
+                    raise ValueError('Ambiguous or oversized inner C-MAPSS archive')
+                inner = out / 'CMAPSSData.zip'
+                inner.write_bytes(outer.read(nested[0]))
+                manifest['inner_member'] = nested[0].filename
+                manifest['inner_sha256'] = hashlib.sha256(inner.read_bytes()).hexdigest()
+                archive = inner
         commands = [
             ['extract-data', '--zip', str(archive), '--out', str(out/'data')],
             ['inspect-data', '--data-root', str(out/'data'), '--dataset', args.dataset, '--strict-hashes'],

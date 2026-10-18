@@ -431,7 +431,7 @@
     },
     {
       "path": "scripts/cold_start.py",
-      "sha256": "43228d057ee3f785971fa77facec8fb8522289efb5031e91602422941f621921"
+      "sha256": "684147686b17c65ae7c32764afba26bfc0e30cc004d74dfa4d92657b19959786"
     }
   ]
 }
